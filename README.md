@@ -38,7 +38,7 @@ For the lazy:
 ```
 for file in protractor.conf.js
 do
-  wget https://raw.githubusercontent.com/marioshtika/ionic-start-with-e2e-testing/master/${file}
+  wget https://raw.githubusercontent.com/marioshtika/ionic-project-with-e2e-testing/master/test-config/${file}
 done
 
 mkdir e2e
@@ -46,7 +46,7 @@ cd e2e
 
 for file in tsconfig.json
 do
-  https://raw.githubusercontent.com/marioshtika/ionic-start-with-e2e-testing/master/e2e/${file}
+  wget https://raw.githubusercontent.com/marioshtika/ionic-project-with-e2e-testing/master/e2e/${file}
 done
 ```
 
