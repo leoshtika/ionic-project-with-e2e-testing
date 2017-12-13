@@ -1,0 +1,8 @@
+{
+  "name": "starter-with-e2e-testing",
+  "app_id": "",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
