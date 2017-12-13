@@ -9,7 +9,10 @@
     "build": "ionic-app-scripts build",
     "lint": "ionic-app-scripts lint",
     "ionic:build": "ionic-app-scripts build",
-    "ionic:serve": "ionic-app-scripts serve"
+    "ionic:serve": "ionic-app-scripts serve",
+    "e2e": "npm run e2e-update && npm run e2e-test",
+    "e2e-test": "protractor ./test-config/protractor.conf.js",
+    "e2e-update": "webdriver-manager update --standalone false --gecko false"
   },
   "dependencies": {
     "@angular/common": "5.0.3",
@@ -32,6 +35,10 @@
   },
   "devDependencies": {
     "@ionic/app-scripts": "3.1.5",
+    "@types/jasmine": "^2.8.2",
+    "jasmine-spec-reporter": "^4.2.1",
+    "protractor": "^5.2.2",
+    "ts-node": "^4.0.1",
     "typescript": "2.4.2"
   },
   "description": "An Ionic project"
